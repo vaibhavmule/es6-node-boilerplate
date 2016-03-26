@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "root": true,
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "extends": "airbnb/base",
+  "rules": {
+    "semi": [2, "never"]
+  }
+}
